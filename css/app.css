@@ -5370,6 +5370,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   padding: 40px 30px;
   background: #fff;
   border-radius: 24px;
+  min-height: 250px;
 }
 
 .design__category {
@@ -5383,7 +5384,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 .design__slide .design__info {
   margin-bottom: 23px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -.045em;
