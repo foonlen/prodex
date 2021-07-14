@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
 h6, p, blockquote, pre, a, abbr, acronym, address, big,
 cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
@@ -2022,7 +2024,7 @@ html.no-scroll {
 
 body {
   min-width: 375px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.025em;
@@ -2037,13 +2039,14 @@ body.no-scroll {
 
 .page {
   overflow: hidden;
+  background: #eee;
 }
 
 .btn {
   min-width: 178px;
   height: 72px;
   border-radius: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: -.04em;
@@ -2431,7 +2434,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .header__category {
   margin-bottom: 35px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -2542,7 +2545,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px rgba(41, 41, 48, 0.1);
   box-shadow: 0 2px 5px rgba(41, 41, 48, 0.1);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   color: #292930;
 }
@@ -2580,7 +2583,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .title {
   position: relative;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 80px;
   font-weight: 500;
   line-height: 1;
@@ -2664,7 +2667,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .stage {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 20px;
   font-weight: 700;
   line-height: 1;
@@ -2675,6 +2678,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   padding: 220px 0 100px;
   min-height: 100vh;
+  background: #eee;
 }
 
 .main__wrap {
@@ -2701,7 +2705,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .main__control .main__icon {
-  margin-top: -3px;
+  margin-top: -8px;
 }
 
 .main__btn {
@@ -2863,7 +2867,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: -200px;
   width: 400px;
   height: 400px;
-  background: #FFDC60;
+  background: #e8b80c;
 }
 
 .main__circle:nth-child(2) {
@@ -2880,7 +2884,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   width: 128px;
   height: 128px;
-  background: #FFDC60;
+  background: #e8b80c;
 }
 
 .main__circle:nth-child(4) {
@@ -2905,16 +2909,16 @@ body:not(.touch-device) .header__item:hover .header__body {
   right: calc(50% - 1330px);
   width: 1400px;
   height: 1200px;
-  background: #5956E9;
+  background: #201d8e;
 }
 
 .main__circle:nth-child(7) {
-  top: 57%;
+  top: 65%;
   right: calc(50% - 594px);
   z-index: 2;
-  width: 103px;
-  height: 103px;
-  background: #fff;
+  width: 50px;
+  height: 50px;
+  background: #FAB8C4;
 }
 
 .features {
@@ -3012,7 +3016,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .features__category {
   margin-bottom: 35px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.4;
@@ -3067,7 +3071,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 135px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   font-weight: 500;
 }
@@ -3129,6 +3133,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -webkit-transition: all .25s;
   -o-transition: all .25s;
   transition: all .25s;
+  outline: 0;
 }
 
 .features .slick-arrow .icon {
@@ -3402,7 +3407,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .access__info {
   margin-bottom: 42px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.4;
@@ -3424,7 +3429,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   padding: 0 210px 0 72px;
   background: #fff;
   border-radius: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   letter-spacing: -.025em;
   color: #292930;
@@ -3464,7 +3469,6 @@ body:not(.touch-device) .header__item:hover .header__body {
 .layouts {
   position: relative;
   padding: 231px 0 165px;
-  background: #fff;
 }
 
 .layouts__wrap {
@@ -3492,7 +3496,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.1;
@@ -3928,7 +3932,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   border-color: #E3E6E9;
   border-radius: 0;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='16' fill='none'%3E%3Cpath fill-rule='evenodd' d='M5.707.293a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L5 2.414l3.293 3.293a1 1 0 1 0 1.414-1.414l-4-4zM.293 11.207l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L5 13.086 1.707 9.793a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414z' fill='%23292930'/%3E%3C/svg%3E") no-repeat 100% 50%/10px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 20px;
   font-weight: 500;
   color: #5956E9;
@@ -4451,7 +4455,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .teams__name {
   margin-bottom: 27px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 20px;
   font-weight: 700;
 }
@@ -4459,7 +4463,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 .teams__text {
   max-width: 290px;
   margin-bottom: 40px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 24px;
   letter-spacing: -.025em;
   line-height: 1.25;
@@ -4563,7 +4567,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .speed__number {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 80px;
   line-height: 1;
   font-weight: 500;
@@ -4571,7 +4575,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .speed__number span {
   margin-right: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 288px;
   letter-spacing: -.05em;
   font-weight: 300;
@@ -4824,7 +4828,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 6px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   font-weight: 500;
 }
@@ -4864,7 +4868,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   padding-right: 30px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 18px;
   font-weight: 500;
   color: #292930;
@@ -5059,7 +5063,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .demo__icon {
   margin-bottom: 22px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 48px;
   font-weight: 500;
   line-height: 1.29167;
@@ -5068,7 +5072,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 .demo__info {
   max-width: 450px;
   margin: 0 auto;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 24px;
   line-height: 1.4;
   letter-spacing: -.045em;
@@ -5128,7 +5132,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-positive: 1;
   flex-grow: 1;
   margin-bottom: 112px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.4;
@@ -5375,7 +5379,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .design__category {
   margin-bottom: 23px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   line-height: 1;
   font-weight: 500;
@@ -5383,7 +5387,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .design__slide .design__info {
   margin-bottom: 23px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 26px;
   font-weight: 500;
   line-height: 1.1;
@@ -5402,7 +5406,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 26px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.1;
@@ -5574,7 +5578,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .details__counter {
   margin-bottom: 40px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 80px;
   font-weight: 500;
   line-height: 1;
@@ -5582,7 +5586,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .details__number {
   pointer-events: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 288px;
   font-weight: 300;
   letter-spacing: -.09em;
@@ -5601,7 +5605,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   margin-right: 47px;
   border-radius: 50%;
   background: #5956E9;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: -.04em;
@@ -5805,7 +5809,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   border: none;
   border-radius: 8px;
   background: #E3E6E9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='9' fill='none'%3E%3Cpath fill-rule='evenodd' d='M.293.293a1 1 0 0 1 1.414 0L7.5 6.086 13.293.293a1 1 0 0 1 1.414 0 1 1 0 0 1 0 1.414l-6.5 6.5a1 1 0 0 1-1.414 0l-6.5-6.5a1 1 0 0 1 0-1.414z' fill='%23292930'/%3E%3C/svg%3E") no-repeat calc(100% - 15px) 50%/15px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 12px;
   color: #292930;
 }
@@ -6108,7 +6112,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   align-items: center;
   padding: 16px 80px 16px 24px;
   border-radius: 16px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.1;
@@ -6476,7 +6480,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .quality__category {
   margin-bottom: 24px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 24px;
   font-weight: 500;
 }
@@ -6915,7 +6919,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .footer__copyright {
   margin-right: auto;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   font-weight: 500;
   color: #999FAE;
@@ -6929,7 +6933,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   margin-left: auto;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   font-weight: 500;
   color: #999FAE;
@@ -7215,7 +7219,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .field__label {
   text-align: left;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -7261,7 +7265,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 100%;
   border: 1px solid #E3E6E9;
   border-radius: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   color: #292930;
   -webkit-transition: all .25s;
@@ -7600,11 +7604,11 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .navbar_gog .nav-link {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
   font-size: 16px;
   font-weight: 400;
-  color: #fff !important;
+  color: #989898 !important;
 }
 
 .banner_block .main__title {
@@ -7619,6 +7623,14 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .plan .plan__item  .plan__title {
   font-size: 32px;
+}
+
+.banner_block .main__icon img {
+  width: 30px;
+}
+
+.banner_block .main__link .main__text {
+  font-size: 18px;
 }
 
 /*End Custom CSS*/
@@ -7756,6 +7768,14 @@ body:not(.touch-device) .header__item:hover .header__body {
   }
   .entry__form {
     margin-right: 0;
+  }
+  .main__view {
+    top: 0;
+    right: calc(50% - 686px);
+  }
+
+  .main {
+    padding: 100px 0 100px;
   }
 }
 
