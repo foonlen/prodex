@@ -3482,6 +3482,19 @@ body:not(.touch-device) .header__item:hover .header__body {
 .layouts {
   position: relative;
   padding: 100px 0 165px;
+  background: #1e2f37;
+}
+
+.layouts h2 {
+  color: #fff;
+}
+
+.layouts .layouts__info {
+  color: #aaa;
+}
+
+.layouts .layouts__text {
+  color: #fff;
 }
 
 .layouts__wrap {
@@ -3904,6 +3917,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 .plan {
   position: relative;
   margin-bottom: 110px;
+  padding-top: 50px;
 }
 
 .plan__head {
