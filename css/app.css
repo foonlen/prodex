@@ -5340,7 +5340,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   background: #FAB8C4;
 }
 
-.design__slide:first-child .design__preview, .design__slide:nth-child(4) .design__preview {
+.design__slide:first-child .design__preview{
   top: 10px;
   left: 15px;
   width: 360px;
